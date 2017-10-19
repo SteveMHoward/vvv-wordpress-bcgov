@@ -35,7 +35,7 @@ define( 'WP_DEBUG', true );
 PHP
 
   echo "Installing WordPress Stable..."
-  noroot wp core install --url=bcgov.test --quiet --title="BCGov WordPress Dev" --admin_name=admin --admin_email="admin@bcgov.test" --admin_password="vagrant"
+  noroot wp core install --url=bcgov.dev --quiet --title="BCGov WordPress Dev" --admin_name=admin --admin_email="admin@bcgov.dev" --admin_password="vagrant"
 
 else
 
